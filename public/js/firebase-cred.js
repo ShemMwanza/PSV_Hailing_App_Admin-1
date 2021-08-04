@@ -24,3 +24,4 @@ firebase.initializeApp(firebaseConfig);
   var database = firebase.database();
 
 console.log("Firebase Started");
+
