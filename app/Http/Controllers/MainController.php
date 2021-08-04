@@ -34,4 +34,14 @@ class MainController extends Controller
     {
         return view('adminViews.landing');
     }
+
+    public function login()
+    {
+        return view('login');
+    }
+
+    public function test()
+    {
+        return view('test');
+    }
 }
